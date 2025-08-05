@@ -4,7 +4,8 @@ from text_summarizer.logging import logger
 from pathlib import Path
 from typing import Any
 from box.exceptions import BoxValueError
-from box import ConfigBox
+from box import ConfigBox #to access the value of key value value pair like d.key rather than d["key"]
+
 
 def read_yaml(path_to_yaml: Path) -> ConfigBox: # takes ymal file and returns its content as a ConfigBox
 
