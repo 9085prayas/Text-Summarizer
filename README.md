@@ -5,6 +5,7 @@
 
 1. Update config.ymal from config 
 2. Update params.yaml
+3. write the notebook for refrence
 3. Update entity
 4. Update configuration manager from src config 
 5. Update components
